@@ -1,29 +1,27 @@
 # TituloEleitoralValidator
 
-TODO: Write a gem description
+Validador customizado para validar o número de inscrição do título eleitoral no Rails 4
 
-## Installation
+## Instalação
 
-Add this line to your application's Gemfile:
+Insira esta linha no arquivo Gemfile da sua aplicação Rails:
 
     gem 'titulo_eleitoral_validator'
 
-And then execute:
+Então execute:
 
     $ bundle
 
-Or install it yourself as:
+## Uso
 
-    $ gem install titulo_eleitoral_validator
+Adicione no seu model que possui atributo número de inscrição do título eleitoral:
 
-## Usage
+    validates :meu_atributo_numero_inscricao, titulo_eleitoral: true
 
-TODO: Write usage instructions here
+## Contribuindo
 
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/titulo_eleitoral_validator/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+1. Faça um Fork
+2. Crie um branch para a nova funcionalidade (`git checkout -b minha-nova-funcionalidade`)
+3. Faça o commit de suas alterações  (`git commit -am 'Adicionada nova funcionalidade'`)
+4. Faça um push da sua nova funconalidade (`git push origin minha-nova-funcionalidade`)
+5. Submeta uma nova Pull Request
