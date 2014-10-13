@@ -1,5 +1,7 @@
 # TituloEleitoralValidator
 
+[![Build Status](https://travis-ci.org/eduardodeoh/titulo_eleitoral_validator.svg?branch=master)](https://travis-ci.org/eduardodeoh/titulo_eleitoral_validator) [![Coverage Status](https://coveralls.io/repos/eduardodeoh/titulo_eleitoral_validator/badge.png?branch=master)](https://coveralls.io/r/eduardodeoh/titulo_eleitoral_validator?branch=master) [![Gem Version](https://badge.fury.io/rb/titulo_eleitoral_validator.svg)](http://badge.fury.io/rb/titulo_eleitoral_validator)
+
 Validador customizado para validar o número de inscrição do título eleitoral no Rails 4
 
 ## Instalação
