@@ -1,3 +1,6 @@
+require 'coveralls'
+Coveralls.wear!
+
 require 'titulo_eleitoral_validator'
 require 'active_model'
 require 'minitest/autorun'
